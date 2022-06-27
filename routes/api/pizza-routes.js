@@ -13,7 +13,6 @@ router
     .get(getAllPizza)
     .post(createPizza);
 
-
 router
     .route('/:id')
     .get(getPizzaById)
